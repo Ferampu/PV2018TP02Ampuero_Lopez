@@ -15,9 +15,6 @@ import java.util.Scanner;
  * @author Fer
  */
 public class Punto3 {
-    private String dia;
-    private String mes;
-    private String año;
 
     public Punto3() {
     }
@@ -85,48 +82,6 @@ public class Punto3 {
         a=años.format(fcien);
         String fechaa=d+","+" de "+m+" del "+a;
         return fechaa;
-    }
-
-    /**
-     * @return the dia
-     */
-    public String getDia() {
-        return dia;
-    }
-
-    /**
-     * @param dia the dia to set
-     */
-    public void setDia(String dia) {
-        this.dia = dia;
-    }
-
-    /**
-     * @return the mes
-     */
-    public String getMes() {
-        return mes;
-    }
-
-    /**
-     * @param mes the mes to set
-     */
-    public void setMes(String mes) {
-        this.mes = mes;
-    }
-
-    /**
-     * @return the año
-     */
-    public String getAño() {
-        return año;
-    }
-
-    /**
-     * @param año the año to set
-     */
-    public void setAño(String año) {
-        this.año = año;
     }
 }
         /*}*/
