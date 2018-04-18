@@ -23,9 +23,9 @@ public class Principal {
     }
     public static void llamarMenuPrincipal() throws ParseException{
         Scanner scaneo=new Scanner(System.in);
-        Punto1 nuevoPunto1=new Punto1();
-        Punto2 nuevoPunto2=new Punto2();
-        Punto3 nuevoPunto3=new Punto3();
+        Punto1 nuevoPunto1 =new Punto1();
+        Punto2 nuevoPunto2 =new Punto2();
+        Punto3 nuevoPunto3 =new Punto3();
         int opcion;
         do{
             System.out.println("-------------MENU TP02-----------");

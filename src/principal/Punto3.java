@@ -29,7 +29,7 @@ public class Punto3 {
         String año=in.next();
         String fechacien="";
         fechacien=dia+"/"+mes+"/"+año;
-        SimpleDateFormat cien=new SimpleDateFormat("dd/MMMM/yyyy");
+        SimpleDateFormat cien=new SimpleDateFormat("dd/MM/yyyy");//error en el fomato MMMM
         SimpleDateFormat años=new SimpleDateFormat("yyyy");
         Date fcien;
         fcien=cien.parse(fechacien);
